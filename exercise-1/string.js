@@ -33,14 +33,14 @@
     function camelCase(str) {
         if(typeof str !== "string" || !str) return '';
 
-        var test = capitalize(str).replace(/ /g,"");
+        var test = capitalize(str).replace(/ |_/g,"");
         return test;
     }
 
     console.log(camelCase("test"));
     console.log(camelCase("Test"));
     console.log(camelCase(" test"));
-    console.log(camelCase("test Test tst"));   
+    console.log(camelCase("test Test_tst"));   
     console.log(camelCase(""));  
     console.log(camelCase(null));  
     console.log(camelCase({}));  

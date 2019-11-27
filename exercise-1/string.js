@@ -37,7 +37,7 @@
         // A=4, E=3, I=1, O=0, U=(_), Y=7
         if(typeof str !== "string" || !str) return ''; 
         return str.replace(/[aA]/g, "4").replace(/[eE]/g, "3").
-        replace(/[iI]/g, "1").replace(/[oO]/g, "0").replace(/[uU]/g, "_").replace(/[yY]/g, "7");
+        replace(/[iI]/g, "1").replace(/[oO]/g, "0").replace(/[uU]/g, "(_)").replace(/[yY]/g, "7");
         
         
     }

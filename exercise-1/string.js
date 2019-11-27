@@ -23,18 +23,14 @@
         }).join("");
     }
 
-    console.log(camelCase("test"));
-    console.log(camelCase("Test"));
-    console.log(camelCase(" test"));
-    console.log(camelCase("test Test_tst"));   
-    console.log(camelCase(""));  
-    console.log(camelCase(null));  
-    console.log(camelCase({}));
-    console.log(camelCase("ToggleCase is_the coolest")); 
-
-    // function snake_case(str){
-    //     //joint les mots par des underscore
-    // }
+    function snake_case(str){
+        //joint les mots par des underscore en MIN
+        if(typeof str !== "string" || !str) return '';
+        
+        return str.toLowerCase().split(/[^a-zA-Z0-9]/).map(function(item) {
+            return item;
+       }).join("_");       
+    }
 
     // function leet(str){
     //     //remplace les voyelle par des chiffres
@@ -58,3 +54,12 @@
     //     //cryptage => Chiffre de Vigenère
     //     //wiwipedia + crypto => yzixisfzy
     // }
+
+    console.log(snake_case(" test"));
+    console.log(snake_case("Test"));
+    console.log(snake_case(" test"));
+    console.log(snake_case("test Test_tst"));   
+    console.log(snake_case(""));  
+    console.log(snake_case(null));  
+    console.log(snake_case({}));
+    console.log(snake_case("ToggleCase is_the coolest")); 

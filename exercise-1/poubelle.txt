@@ -1,0 +1,22 @@
+    function leet(str){
+        //remplace les voyelle par des chiffres
+    }
+
+    function prop_access(prairie, "animal.type.name"){
+        //parcours l'objet pour aller chercher le dernier attribut du chemin``
+        //si attribut non existant, afficher le chemin jusqu'à l'attribut => "animal.gender not exist"
+        //si path vide ou null, renvoyer l'objet complet
+    }
+
+    function verlan(str){
+        //inverser chaque mot d'une phrase
+    }
+
+    function yoda(str){
+        //inverser la position des mots d'une phrase
+    }
+
+    function vig(str){
+        //cryptage => Chiffre de Vigenère
+        //wiwipedia + crypto => yzixisfzy
+    }

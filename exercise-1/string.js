@@ -55,11 +55,11 @@
     //     //wiwipedia + crypto => yzixisfzy
     // }
 
-    console.log(snake_case(" test"));
-    console.log(snake_case("Test"));
-    console.log(snake_case(" test"));
-    console.log(snake_case("test Test_tst"));   
-    console.log(snake_case(""));  
-    console.log(snake_case(null));  
-    console.log(snake_case({}));
-    console.log(snake_case("ToggleCase is_the coolest")); 
+    // console.log(snake_case(" test"));
+    // console.log(snake_case("Test"));
+    // console.log(snake_case(" test"));
+    // console.log(snake_case("test Test_tst"));   
+    // console.log(snake_case(""));  
+    // console.log(snake_case(null));  
+    // console.log(snake_case({}));
+    // console.log(snake_case("ToggleCase is_the coolest")); 

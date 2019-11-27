@@ -42,13 +42,6 @@
         
     }
 
-    console.log(leet(" test"));
-    console.log(leet("Test"));
-    console.log(leet("AnacondA"));
-    console.log(leet("test Test_tst"));   
-    console.log(leet(""));  
-    console.log(leet(null));  
-    console.log(leet({}));
-    console.log(leet("ToggleCase is_the coolest")); 
+
 
 

@@ -9,7 +9,7 @@
     function capitalize(str) {
         if(typeof str !== "string" || !str) return '';
 
-        return test.toLowerCase().split(" ").map(function(item) {
+        return str.toLowerCase().split(" ").map(function(item) {
             return ucfirst(item);
         }).join(" ");
     }
